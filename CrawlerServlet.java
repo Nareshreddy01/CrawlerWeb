@@ -35,7 +35,7 @@ public class CrawlerServlet extends HttpServlet {
 		List<String> digiLinks = new ArrayList<String>();
 		List<String> otherLinks = new ArrayList<String>();
 		String url = "https://wiprodigital.com/";
-		int i=0,j=0,tmp=0,total=0, MAX = 100;
+		int i=0,j=0,tmp=0,total=0, MAX = 500;
 		int start=0, end=0;
 		String webpage = "";
 		try {
